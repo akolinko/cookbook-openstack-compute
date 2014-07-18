@@ -100,7 +100,7 @@ compute_api_endpoint = endpoint 'compute-api' || {}
 ec2_api_bind = endpoint 'compute-ec2-api-bind' || {}
 ec2_public_endpoint = endpoint 'compute-ec2-api' || {}
 network_endpoint = endpoint 'network-api' || {}
-image_endpoint = endpoint 'image-api'
+image_endpoint = endpoint 'image-api-internal'
 
 Chef::Log.debug("openstack-compute::nova-common:ksadmin_user|#{ksadmin_user}")
 Chef::Log.debug("openstack-compute::nova-common:ksadmin_tenant_name|#{ksadmin_tenant_name}")
